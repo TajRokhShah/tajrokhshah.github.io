@@ -3,12 +3,12 @@
 body {
   font-family: Vazir, Tahoma, Arial, sans-serif;
   direction: rtl;
-  background: linear-gradient(135deg, #8f00ff 0%, #ff5e62 50%, #ff9966 100%);
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
   margin: 0;
   padding: 0;
 }
 nav {
-  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+  background: linear-gradient(90deg, #232526 0%, #4f2c77 100%);
   padding: 14px 0;
   text-align: center;
   box-shadow: 0 2px 8px #e0e0e0;
@@ -31,9 +31,9 @@ nav a:hover {
 section {
   max-width: 750px;
   margin: 48px auto;
-  background: rgba(255,255,255,0.95);
+  background: rgba(30,32,34,0.97);
   border-radius: 16px;
-  box-shadow: 0 4px 24px #b2fefa99;
+  box-shadow: 0 4px 24px #222a3a99;
   padding: 40px 28px;
   opacity: 0;
   animation: fadein 1.2s ease 0.2s forwards;
@@ -43,7 +43,7 @@ section {
   to { opacity: 1; transform: none; }
 }
 h1 {
-  color: #dd2476;
+  color: #ff5e62;
   text-align: center;
   margin-bottom: 28px;
   font-size: 2.2em;
@@ -66,9 +66,9 @@ p {
 .book-item {
   width: 180px;
   text-align: center;
-  background: #fff0f6;
+  background: #2d2d3a;
   border-radius: 12px;
-  box-shadow: 0 2px 12px #ffb6b9aa;
+  box-shadow: 0 2px 12px #222a3a99;
   padding: 16px 8px 20px 8px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -88,11 +88,11 @@ p {
   margin-top: 12px;
   font-size: 18px;
   font-weight: bold;
-  color: #ff512f;
+  color: #ff5e62;
 }
 .book-author {
   font-size: 16px;
-  color: #dd2476;
+  color: #b39ddb;
 }
 .social-links a {
   display: inline-block;
