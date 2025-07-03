@@ -2,8 +2,15 @@
 <html lang="fa">
 <head>
   <meta charset="UTF-8">
-  <title>کتاب‌های مورد علاقه | سایت شخصی شهروختاج</title>
+  <title>کتاب‌های مورد علاقه | سایت شخصی شاهرخ تاج پرست</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .book-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 32px; }
+    .book-item { width: 180px; text-align: center; }
+    .book-item img { width: 100%; height: 260px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px #ccc; }
+    .book-title { margin-top: 12px; font-size: 17px; font-weight: bold; color: #333; }
+    .book-author { font-size: 15px; color: #666; }
+  </style>
 </head>
 <body>
   <nav>
@@ -14,11 +21,23 @@
   </nav>
   <section>
     <h1>کتاب‌های مورد علاقه من</h1>
-    <ul>
-      <li>کتاب اول</li>
-      <li>کتاب دوم</li>
-      <li>کتاب سوم</li>
-    </ul>
+    <div class="book-list">
+      <div class="book-item">
+        <img src="https://cdn.bookcity.ir/images/2021/11/1636709782.jpg" alt="بیگانه - آلبر کامو">
+        <div class="book-title">بیگانه</div>
+        <div class="book-author">آلبر کامو</div>
+      </div>
+      <div class="book-item">
+        <img src="https://www.30book.com/images/small/9789644122577.jpg" alt="کیمیاگر - پائولو کوئلیو">
+        <div class="book-title">کیمیاگر</div>
+        <div class="book-author">پائولو کوئلیو</div>
+      </div>
+      <div class="book-item">
+        <img src="https://cdn.fidibo.com/images/books/2018/11/1542369787.jpg" alt="دوئل - آنتوان چخوف">
+        <div class="book-title">دوئل</div>
+        <div class="book-author">آنتوان چخوف</div>
+      </div>
+    </div>
   </section>
 </body>
 </html> 
