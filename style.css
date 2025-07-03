@@ -3,7 +3,7 @@
 body {
   font-family: Vazir, Tahoma, Arial, sans-serif;
   direction: rtl;
-  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 50%, #d4fcf9 100%, #b993d6 100%);
   margin: 0;
   padding: 0;
 }
@@ -11,7 +11,7 @@ nav {
   background: linear-gradient(90deg, #232526 0%, #4f2c77 100%);
   padding: 14px 0;
   text-align: center;
-  box-shadow: 0 2px 8px #e0e0e0;
+  box-shadow: 0 2px 8px #222a3a99;
 }
 nav a {
   color: #fff;
@@ -31,9 +31,9 @@ nav a:hover {
 section {
   max-width: 750px;
   margin: 48px auto;
-  background: rgba(30,32,34,0.97);
+  background: rgba(255,255,255,0.93);
   border-radius: 16px;
-  box-shadow: 0 4px 24px #222a3a99;
+  box-shadow: 0 4px 24px #b2b2e099;
   padding: 40px 28px;
   opacity: 0;
   animation: fadein 1.2s ease 0.2s forwards;
@@ -43,7 +43,7 @@ section {
   to { opacity: 1; transform: none; }
 }
 h1 {
-  color: #ff5e62;
+  color: #8f00ff;
   text-align: center;
   margin-bottom: 28px;
   font-size: 2.2em;
@@ -52,8 +52,7 @@ ul {
   font-size: 19px;
   color: #333;
 }
-p {
-  font-size: 19px;
+p, ul, li {
   color: #333;
   line-height: 1.8;
 }
@@ -74,7 +73,7 @@ p {
 }
 .book-item:hover {
   transform: translateY(-8px) scale(1.04);
-  box-shadow: 0 8px 24px #ffb6b9cc;
+  box-shadow: 0 8px 24px #b2b2e099;
 }
 .book-item img {
   width: 100%;
@@ -82,33 +81,35 @@ p {
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 2px 8px #ccc;
-  border: 3px solid #43c6ac;
+  border: 3px solid #8f00ff;
+}
+.book-title, .book-author {
+  color: #fff;
 }
 .book-title {
   margin-top: 12px;
   font-size: 18px;
   font-weight: bold;
-  color: #ff5e62;
 }
 .book-author {
   font-size: 16px;
-  color: #b39ddb;
+  opacity: 0.85;
 }
 .social-links a {
   display: inline-block;
   margin: 0 8px;
   padding: 6px 14px;
-  background: #43c6ac;
+  background: #4f2c77;
   color: #fff;
   border-radius: 8px;
   font-weight: bold;
   font-size: 17px;
   transition: background 0.2s, color 0.2s, transform 0.2s;
   text-decoration: none;
-  box-shadow: 0 2px 8px #b2fefa55;
+  box-shadow: 0 2px 8px #b2b2e055;
 }
 .social-links a:hover {
-  background: #ff512f;
+  background: #8f00ff;
   color: #fff;
   transform: scale(1.08) rotate(-2deg);
 }
