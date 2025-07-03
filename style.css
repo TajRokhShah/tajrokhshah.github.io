@@ -3,7 +3,7 @@
 body {
   font-family: Vazir, Tahoma, Arial, sans-serif;
   direction: rtl;
-  background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+  background: linear-gradient(135deg, #f857a6 0%, #ff5858 50%, #4a90e2 100%);
   margin: 0;
   padding: 0;
 }
@@ -122,4 +122,4 @@ p {
   h1 { font-size: 1.3em; }
   p, ul { font-size: 16px; }
   .book-item img { height: 180px; }
-} 
+}
